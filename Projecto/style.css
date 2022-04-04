@@ -1,7 +1,21 @@
+body {
+	background: #CCC;
+}
+
 #main_title, .subtitle, .post_title {
 	color: blue;
 }
 
 .post_title {
 	font-style: italic;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.post {
+	background: white;
+	padding: 50px;
+	border: 3px solid black;
+	margin: 10px;
+	border-radius: 10%;
 }
